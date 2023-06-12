@@ -1,6 +1,5 @@
-# flutter_application_1
+# The Dice Roller app using Flutter
 
-A new Flutter project.
 
 ## Getting Started
 
