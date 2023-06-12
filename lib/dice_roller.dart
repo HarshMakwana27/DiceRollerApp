@@ -30,11 +30,15 @@ class _DiceRollerState extends State<DiceRoller> {
           'assets/images/$currentDiceRoll.png',
           width: 200,
         ),
-        TextButton(
+        const SizedBox(
+          height: 25,
+        ),
+        ElevatedButton(
           onPressed: rollDice,
-          style: TextButton.styleFrom(
-            padding: const EdgeInsets.all(40),
-            foregroundColor: Colors.black,
+          style: ElevatedButton.styleFrom(
+            padding: const EdgeInsets.all(10),
+            foregroundColor: Colors.white,
+            backgroundColor: const Color.fromARGB(195, 70, 32, 19),
             textStyle: const TextStyle(
               fontSize: 23,
             ),
